@@ -8,7 +8,8 @@ body{
     align-items: center;
     background-color: rgb(188, 188, 188);
     justify-content: center;
-    max-height: 100vh;
+    max-height: 80vh;
+    height: 60%;
 }
 
 
@@ -21,9 +22,12 @@ header{
     align-items: center;
     width: 700px;
     max-width: 700px;
-    height: 20%;
+    height: 50%;
     color: blue;
     font-size: 25px;
+    font-size: 60px;
+    margin-top: 30%;
+    border-radius: 15px;
 }
 
 main{
@@ -37,6 +41,7 @@ main{
     max-width: 700px;
     height: 70%;
     color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 footer {
@@ -47,8 +52,9 @@ footer {
     align-items: center;
     width: 700px;
     max-width: 700px;
-    height: 30vh;
+    height: 30%;
     color: rgb(160, 148, 171);
+    border-radius: 15px;
 }
 
 #score {
@@ -56,7 +62,10 @@ footer {
 }
 
 .score-contanir {
+    width: 300px;
+    height: 100px;
     margin: 20px;
     padding: 20px;
 }
+
 
